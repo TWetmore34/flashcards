@@ -1,0 +1,48 @@
+.quiz-container {
+    background-color: lightgrey;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 50vw;
+    height: 30vh;
+    padding: 40px 10px;
+    border-radius: 8px;
+    box-shadow: 2px 4px;
+}
+
+.answer-container {
+    background-color: lightblue;
+    display: block;
+    margin: 0 auto;
+    width: 50vw;
+    height: 10vh;
+}
+/* font sizes just arent working rn?? */
+.answer-container p {
+    font-size: large;
+}
+
+.text-box {
+    width: 60%;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 5px
+}
+
+.q-name {
+    font-size: 30;
+}
+
+.edit-btn {
+    font-size: 12;
+    font-style: italic;
+    opacity: 80;
+}
+
+.inline {
+    display: inline;
+}
+
+.hidden {
+    visibility: hidden;
+}
